@@ -1,0 +1,66 @@
+:root{
+    --cor-rosa: #ffabab;
+    --cor-2: #f3fee3;
+
+    --fonte: 'Montserrat', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100;400;600&family=Poppins:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.cabeca {
+    background-color: var(--cor-rosa);
+    height: 4.5em;
+}
+
+.cabeca__navegacao {
+    padding: 1.5em 0 0 15em;
+    display: flex;
+    gap: 80px;
+}
+
+.links__menu{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #f3fee3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.corpo__info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    padding: 200px;
+    gap: 100px;
+    color: var(--cor-rosa);
+    font-family: var(--fonte);
+    font-size: 2em;
+}
+
+.texto__carta{
+    font-family: var(--fonte);
+    color: var(--cor-rosa);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 600px;
+    padding-top: 200px;
+    gap: 80px;
+}
+
+.fotos__casal1{
+    display: flex;
+    padding: 200px;
+    gap: 100px;
+}
+
+.links__menu:hover{
+    color: aqua;
+    transform: scale(1.1);
+}

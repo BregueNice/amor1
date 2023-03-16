@@ -64,3 +64,38 @@
     color: aqua;
     transform: scale(1.1);
 }
+
+@media (max-width: 1200px){
+    .corpo__info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px;
+        text-align: center;
+    }
+    .cabeca__navegacao{
+        padding: 1.5em 0 0 10em;
+    }
+    .texto__carta{
+        display: flex;
+        flex-direction: column;
+        padding: 60px;
+        text-align: center;
+    }
+    .fotos__casal1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 425px){
+    .corpo__info{
+        padding: 80px;
+    }
+    .cabeca__navegacao{
+        padding: 1.5em 0 0 1em;
+    }
+    .fotos__casal1{
+        padding: 4em;
+    }
+}
